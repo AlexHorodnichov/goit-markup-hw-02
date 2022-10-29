@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Roboto, Raleway;
+    color: #212121;
+}
+.text-link{
+    color: #212121;
+}
+
+.logo-col{
+    color: #000000;
+}
+.logo{
+    color: #2196F3;
+}
