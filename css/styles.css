@@ -2,17 +2,233 @@
     margin: 0;
     padding: 0;
 }
-body{
-    font-family: Roboto, Raleway;
+.main {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    max-width: 1600px;
+    margin: auto;
+    background: #ffffff;
     color: #212121;
+    box-sizing: border-box;
 }
-.text-link{
+header {
+    position: sticky;
+    height: 80px;
+    display: flex;
+}
+
+.nav {
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-list {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 50px;
+    padding-inline: 93px 0;
+}
+
+.nav-list li:nth-of-type(4) {
+    margin-left: 344px;
+}
+
+.nav-list li:nth-of-type(5) {
+    margin-left: 50px;
+}
+
+.link {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.link:visited {
+    color: inherit;
+}
+
+li {
+    list-style-type: none;
+}
+
+.logo {
+    font-family: "Raleway";
+    color: #000000;
+    font-weight: 700;
+}
+
+.logo-col {
+    font-size: 26px;
+    font-family: "Raleway";
+    color: #2196f3;
+    font-weight: 700;
+}
+
+.link {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.link:visited {
+    color: inherit;
+}
+
+.link:hover,
+.link:focus {
+    color: #2196f3;
+}
+
+.contacts {
+    color: #757575;
+    font-weight: 500;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.contacts:visited {
+    color: inherit;
+}
+
+.contacts:hover,
+.contacts:focus{
+    color: #2196f3;
+} 
+/*Main content*/
+.first-block{
+    display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap: 30px;
+        align-items: center;
+        background-color: #2f303a;
+        color: #ffffff;
+        height: 600px;
+}
+.features-box {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 94px 0 0 0;
+    gap: 30px;
+}
+
+.feature {
+    width: 270px;
+}
+p{
+color: #757575;
+}
+.large-header {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+    margin: 94px 0 50px 0;
+} 
+.team {
+    background-color: #f5f4fa;
+    display: flex;
+    flex-direction: column;
+}
+
+.photo {
+    width: 270px;
+    height: 260px;
+}
+
+.cards-set {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin: 0 0 94px 0;
+}
+
+.card {
+    width: 270px;
+    height: 368px;
+    background: #ffffff;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+        0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
+
+.name {
+    text-align: center;
+    margin: 30px 0 10px 0;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
     color: #212121;
 }
 
-.logo-col{
-    color: #000000;
+.position {
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    margin: 0 0 30px 0;
+    color: #757575;
 }
-.logo{
-    color: #2196F3;
+.footer {
+    position: sticky;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    top: 100%;
+    background-color: #2f303a;
+    padding: 60px 0 60px 215px;
+
+}
+.logo-white {
+    color: #ffffff;
+}
+.footer-item {
+    font-style: normal;
+    font-weight: 400;
+    color: #ffffff;
+    text-decoration: none;
+}
+.footer-contacts{
+    color: #757575;
+        font-weight: 500;
+        font-size: 14px;
+        text-decoration: none;
+}
+.footer-contacts:hover,
+.footer-contacts:focus {
+    color: #2196f3;
+}
+/*Portfolio*/
+.item{
+    text-decoration: none;
+}
+.name-services{
+    font-family: Roboto;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 36px;
+        letter-spacing: 0.06em;
+        text-align: left;
+color: #212121;
+}
+.services{
+    font-family: Roboto;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 30px;
+        letter-spacing: 0.03em;
+        text-align: left;
+        color: #757575;
 }
