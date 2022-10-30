@@ -1,8 +1,9 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
-.main {
+
+body {
     font-family: "Roboto", sans-serif;
     font-style: normal;
     max-width: 1600px;
@@ -11,6 +12,7 @@
     color: #212121;
     box-sizing: border-box;
 }
+
 header {
     position: sticky;
     height: 80px;
@@ -21,7 +23,12 @@ header {
     display: flex;
     flex-grow: 1;
     align-items: center;
-    justify-content: center;
+    padding-left: 215px;
+}
+
+.nav-logo {
+    text-decoration: none;
+    color: #000000;
 }
 
 .nav-list {
@@ -31,6 +38,7 @@ header {
     padding: 0;
     gap: 50px;
     padding-inline: 93px 0;
+    align-items: center;
 }
 
 .nav-list li:nth-of-type(4) {
@@ -66,6 +74,7 @@ li {
     font-family: "Raleway";
     color: #2196f3;
     font-weight: 700;
+
 }
 
 .link {
@@ -90,25 +99,53 @@ li {
     text-decoration: none;
 }
 
+.contacts-list {
+    padding-lift: 215px;
+}
+
 .contacts:visited {
     color: inherit;
 }
 
 .contacts:hover,
-.contacts:focus{
+.contacts:focus {
     color: #2196f3;
-} 
-/*Main content*/
-.first-block{
-    display: flex;
-        justify-content: center;
-        flex-direction: column;
-        gap: 30px;
-        align-items: center;
-        background-color: #2f303a;
-        color: #ffffff;
-        height: 600px;
 }
+
+/*Main content*/
+
+.first-block {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    background-color: #2f303a;
+    color: #ffffff;
+    height: 600px;
+}
+.blocktext {
+    font-size: 44px;
+    display: inline-block;
+    width: 696px;
+    text-align: center;
+}
+.order-btn {
+    height: 50px;
+    width: 216px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.06em;
+    background: #2196f3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    font-family: "Roboto", sans-serif;
+    color: #ffffff;
+    border: none;
+}
+
 .features-box {
     display: flex;
     justify-content: center;
@@ -120,9 +157,11 @@ li {
 .feature {
     width: 270px;
 }
-p{
-color: #757575;
+
+p {
+    color: #757575;
 }
+
 .large-header {
     font-weight: 700;
     font-size: 36px;
@@ -131,7 +170,8 @@ color: #757575;
     letter-spacing: 0.03em;
     color: #212121;
     margin: 94px 0 50px 0;
-} 
+}
+
 .team {
     background-color: #f5f4fa;
     display: flex;
@@ -181,6 +221,7 @@ color: #757575;
     margin: 0 0 30px 0;
     color: #757575;
 }
+
 .footer {
     position: sticky;
     display: flex;
@@ -191,44 +232,76 @@ color: #757575;
     padding: 60px 0 60px 215px;
 
 }
-.logo-white {
+
+.footer-logo {
     color: #ffffff;
+    text-decoration: none;
 }
+
 .footer-item {
     font-style: normal;
     font-weight: 400;
     color: #ffffff;
     text-decoration: none;
 }
-.footer-contacts{
-    color: #757575;
-        font-weight: 500;
-        font-size: 14px;
-        text-decoration: none;
+address{
+        display: flex;
+            flex-direction: column;
 }
+
+.footer-contacts {
+    color: #757575;
+    font-weight: 500;
+    font-size: 14px;
+    text-decoration: none;
+}
+
 .footer-contacts:hover,
 .footer-contacts:focus {
     color: #2196f3;
 }
+
 /*Portfolio*/
-.item{
-    text-decoration: none;
+
+.portfolio-nav{
+    display: flex;
+    justify-content: center;
 }
-.name-services{
-    font-family: Roboto;
-        font-size: 18px;
-        font-weight: 700;
-        line-height: 36px;
-        letter-spacing: 0.06em;
-        text-align: left;
-color: #212121;
-}
-.services{
+.nav-link{
     font-family: Roboto;
         font-size: 16px;
-        font-weight: 400;
-        line-height: 30px;
+        font-weight: 500;
+        line-height: 26px;
         letter-spacing: 0.03em;
-        text-align: left;
-        color: #757575;
+        text-align: center;
+}
+
+.portfolio-item{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.item {
+    text-decoration: none;
+}
+
+.name-services {
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0.06em;
+    text-align: left;
+    color: #212121;
+}
+
+.services {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: #757575;
 }
