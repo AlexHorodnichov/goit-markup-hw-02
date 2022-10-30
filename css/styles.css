@@ -166,6 +166,10 @@ font-family: Roboto;
 .feature {
     width: 270px;
 }
+.feature:hover,
+.feature:focus{
+    
+}
 .benefits{
     font-family: Roboto;
         font-size: 14px;
@@ -316,6 +320,12 @@ font-family: Roboto;
     letter-spacing: 0.03em;
     text-align: center;
     color: #212121;
+}
+button:hover,
+button:focus{
+    background-color: #2196F3;
+    color: #ffffff;
+
 }
 
 .portfolio-item {
