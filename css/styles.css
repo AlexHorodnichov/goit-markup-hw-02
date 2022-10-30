@@ -124,12 +124,14 @@ li {
     color: #ffffff;
     height: 600px;
 }
+
 .blocktext {
     font-size: 44px;
     display: inline-block;
     width: 696px;
     text-align: center;
 }
+
 .order-btn {
     height: 50px;
     width: 216px;
@@ -244,9 +246,10 @@ p {
     color: #ffffff;
     text-decoration: none;
 }
-address{
-        display: flex;
-            flex-direction: column;
+
+address {
+    display: flex;
+    flex-direction: column;
 }
 
 .footer-contacts {
@@ -263,20 +266,21 @@ address{
 
 /*Portfolio*/
 
-.portfolio-nav{
+.portfolio-nav {
     display: flex;
     justify-content: center;
 }
-.nav-link{
+
+.nav-link {
     font-family: Roboto;
-        font-size: 16px;
-        font-weight: 500;
-        line-height: 26px;
-        letter-spacing: 0.03em;
-        text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0.03em;
+    text-align: center;
 }
 
-.portfolio-item{
+.portfolio-item {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
