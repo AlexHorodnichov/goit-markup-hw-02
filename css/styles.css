@@ -44,7 +44,9 @@ header {
 .nav-list li:nth-of-type(4) {
     margin-left: 344px;
 }
-
+.nav-link{
+    
+}
 .nav-list li:nth-of-type(5) {
     margin-left: 50px;
 }
@@ -100,7 +102,8 @@ li {
 }
 
 .contacts-list {
-    padding-lift: 215px;
+    display: flex;
+    align-items: center;
 }
 
 .contacts:visited {
