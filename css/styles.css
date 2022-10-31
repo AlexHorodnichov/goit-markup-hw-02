@@ -290,16 +290,16 @@ address {
 }
 
 .footer-contacts {
-Font family: Roboto;
-Font style: Regular;
-Font size: 14px;
-Line height: 24px;
-Line height: 146%;
-Align: Left;
-Vertical align: Top;
-Letter spacing: 3%;
-    color: #757575;
-    text-decoration: none;
+font-family: Roboto;
+font-style: normal;
+font-size: 14px;
+line-height: 24px;
+line-height: 146%;
+align: left;
+vertical-align: Top;
+letter-spacing: 3%;
+color: #757575;
+text-decoration: none;
 }
 
 .footer-contacts:hover,
