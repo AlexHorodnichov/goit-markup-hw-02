@@ -103,7 +103,7 @@ li {
     font-family: Roboto;
     font-size: 14px;
     font-weight: 500;
-    line-height: 16px;
+    line-height: 1.14;
     letter-spacing: 0.02em;
     text-align: left;
     display: flex;
@@ -145,7 +145,7 @@ li {
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
-    line-height: 30px;
+    line-height: 1.87;
     letter-spacing: 0.06em;
     background: #2196f3;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -174,7 +174,7 @@ li {
     font-family: Roboto;
     font-size: 14px;
     font-weight: 700;
-    line-height: 16px;
+    line-height: 1.14;
     letter-spacing: 0.03em;
     text-align: left;
 }
@@ -183,7 +183,7 @@ li {
     font-family: Roboto;
     font-size: 14px;
     font-weight: 400;
-    line-height: 24px;
+    line-height: 1.7;
     letter-spacing: 0.03em;
     text-align: left;
     color: #757575
@@ -192,7 +192,7 @@ li {
 .large-header {
     font-weight: 700;
     font-size: 36px;
-    line-height: 42px;
+    line-height: 1.7;
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
@@ -238,7 +238,7 @@ li {
     margin: 30px 0 10px 0;
     font-weight: 500;
     font-size: 16px;
-    line-height: 19px;
+    line-height: 1.18;
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
@@ -248,7 +248,7 @@ li {
     text-align: center;
     font-weight: 400;
     font-size: 16px;
-    line-height: 19px;
+    line-height: 1.18;
     text-align: center;
     letter-spacing: 0.03em;
     margin: 0 0 30px 0;
@@ -282,7 +282,7 @@ li {
     text-decoration: none;
     font-family: Roboto;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.71;
     letter-spacing: 0.03em;
     text-align: left;
 }
@@ -348,7 +348,7 @@ address {
     font-family: Roboto;
     font-size: 18px;
     font-weight: 700;
-    line-height: 36px;
+    line-height: 2;
     letter-spacing: 0.06em;
     text-align: left;
     color: #212121;
@@ -358,7 +358,7 @@ address {
     font-family: Roboto;
     font-size: 16px;
     font-weight: 400;
-    line-height: 30px;
+    line-height: 1.87;
     letter-spacing: 0.03em;
     text-align: left;
     color: #757575;
