@@ -17,11 +17,12 @@ header {
   position: sticky;
   height: 80px;
   display: flex;
+  background: #ffffff;
+  border: 1px solid #ececec;
 }
 
 .nav {
   display: flex;
-  flex-grow: 1;
   align-items: center;
   padding-left: 215px;
 }
@@ -40,9 +41,6 @@ header {
   margin-left: 344px;
 }
 
-.nav-link {
-}
-
 .nav-list li:nth-of-type(5) {
   margin-left: 50px;
 }
@@ -53,10 +51,17 @@ header {
   font-size: 14px;
 }
 
+.link:hover,
+.link:focus {
+  color: #2196f3;
+}
+
 .link:visited {
   color: inherit;
 }
-
+.link-cont {
+  margin-right: 344px;
+}
 li {
   list-style-type: none;
 }
@@ -75,26 +80,14 @@ li {
   text-decoration: none;
 }
 
-.link {
-  text-decoration: none;
-  font-weight: 500;
-  font-size: 14px;
-}
-
-.link:visited {
-  color: inherit;
-}
-
-.link:hover,
-.link:focus {
-  color: #2196f3;
-}
-
 .contacts {
   color: #757575;
   font-weight: 500;
   font-size: 14px;
   text-decoration: none;
+}
+.contacts-tel {
+  margin-left: 50px;
 }
 
 .contacts-list {
@@ -204,13 +197,14 @@ li {
   color: #212121;
   margin: 94px 0 50px 0;
 }
-
 .work-photo {
   display: flex;
-  justify-content: center;
   padding-bottom: 94px;
+  padding-left: 215px;
 }
-
+.specialty {
+  margin-right: 30px;
+}
 .team {
   background-color: #f5f4fa;
   display: flex;
@@ -276,7 +270,7 @@ li {
   color: #ffffff;
   font-weight: 700;
   font-size: 26px;
-  text-decoration: none; 
+  text-decoration: none;
   margin-bottom: 20px;
 }
 
@@ -315,7 +309,7 @@ address {
 
 .filter-list {
   display: flex;
-  justify-content: center;
+  padding-left: 512px;
 }
 
 .filter-item {
@@ -324,12 +318,14 @@ address {
   vertical-align: Top;
   padding-top: 94px;
   padding-bottom: 50px;
+  margin-right: 8px;
 }
 .filter-btn {
   padding: 6px 22px;
   border-radius: 4px;
   background-color: #f5f4fa;
   cursor: pointer;
+  border: 0ch;
 }
 
 .filter-btn:hover,
@@ -341,7 +337,16 @@ address {
 .portfolio-item {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  padding-left: 215px;
+}
+.portfolio-list {
+  margin-right: 30px;
+  margin-bottom: 30px;
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+}
+.cell{
+  margin-bottom: 94px;
 }
 
 .item {
