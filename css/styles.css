@@ -297,7 +297,7 @@ address {
     font-size: 14px;
     line-height: 1.7;
     vertical-align: Top;
-    color: #757575;
+    color: rgba(255, 255, 255, 0.6);
     text-decoration: none;
 }
 
