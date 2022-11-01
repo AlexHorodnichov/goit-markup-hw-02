@@ -290,10 +290,10 @@ li {
 address {
     display: flex;
     flex-direction: column;
+    font-style: normal;
 }
 
 .footer-contacts {
-    font-style: normal;
     font-size: 14px;
     line-height: 1.7;
     vertical-align: Top;
